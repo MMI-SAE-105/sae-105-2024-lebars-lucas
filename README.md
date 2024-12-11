@@ -3,10 +3,10 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : LEBARS
+- PRÉNOM : LUCAS
+- GROUPE : B2
+- URL du site : 
 - URL FIGMA :
 
 ## Sujet

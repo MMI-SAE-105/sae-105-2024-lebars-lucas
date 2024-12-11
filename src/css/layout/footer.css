@@ -1,0 +1,12 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Prend toute la largeur de la page */
+    height: auto; /* Ajuste la hauteur automatiquement */
+    padding: 10px 0; /* Ajoute du padding pour le contenu */
+    flex-shrink: 0;
+    border-radius: 25px 25px 0px 0px;
+    background: #FB6B24;
+    text-align: center; /* Centre le texte horizontalement */
+    color: white;
+}
