@@ -6,8 +6,8 @@
 - NOM : LEBARS
 - PRÉNOM : LUCAS
 - GROUPE : B2
-- URL du site : 
-- URL FIGMA :
+- URL du site : https://bespoke-elf-53f90b.netlify.app/
+- URL FIGMA : https://www.figma.com/design/ZXSOn6NusngXqS7w32ArOx/SA%C3%89-103?node-id=144-235&m=dev
 
 ## Sujet
 
