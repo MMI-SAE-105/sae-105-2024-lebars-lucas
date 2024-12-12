@@ -3,6 +3,7 @@
     background-color: #FB6B24;
     height: 96px; 
     width: 100%;
+    position: fixed;
     
 
     border-bottom-left-radius: 30px;
@@ -18,11 +19,12 @@ border-bottom-right-radius: 53px
 .boutonmenu{
     position: absolute;
     left: 0;
-    top: 40px;
+    top: 30px;
 }
 
 .titre {
     position: absolute;
-    right: 100px;
-    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
 }

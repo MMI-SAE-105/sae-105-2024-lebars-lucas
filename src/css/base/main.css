@@ -14,8 +14,8 @@ body {
   margin-top: 50px ;
 margin-bottom: 50px ;
 }
-.photo {
-
+.infophoto {
+margin-top: 93px;
 width: 300px;
 
 }
@@ -33,7 +33,7 @@ width: 300px;
   font-weight: bold
 }
 
-.line1infos,.line2prog{
+.line1infos,.line2prog,.line3tar{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -98,4 +98,26 @@ margin-bottom: 50px;
 
 .billetterieimg{
   margin-right: 20px;
+}
+
+.aproposcontainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.txtconcept{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.txtvaleurs{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 15px;
+  margin-bottom: 100px;
 }

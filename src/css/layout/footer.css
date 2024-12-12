@@ -1,12 +1,72 @@
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%; /* Prend toute la largeur de la page */
-    height: auto; /* Ajuste la hauteur automatiquement */
+    height: 500px; 
     padding: 10px 0; /* Ajoute du padding pour le contenu */
     flex-shrink: 0;
     border-radius: 25px 25px 0px 0px;
     background: #FB6B24;
     text-align: center; /* Centre le texte horizontalement */
     color: white;
+}
+
+.suiveznous{
+    color: black;
+    font-family: anonymous;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 27px;
+}
+
+.reseauxsociaux{
+    display: flex;
+    justify-content: center;
+}
+
+.instaclass{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.linefooter{
+    margin-top: 31px;
+    margin-bottom: 56px;
+}
+
+.prenomfoooter{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Anonymous Pro";
+    font-weight: 700;
+    line-height: normal;
+}
+
+.classefooter{
+    color: black;
+    text-align: center;
+    font-family: "Anonymous Pro";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.classemail{
+    color: black;
+    text-align: center;
+    font-family: "Anonymous Pro";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+line-height: normal;
+}
+
+.logofooter{
+    left: 50%;
+  transform: translateX(-50%);
+ position: absolute;
+ bottom: 0;
 }
