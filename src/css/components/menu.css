@@ -1,11 +1,4 @@
-body {
-  background-color: #FB6B24; 
-  font-family: 'StormGust', sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
+
 
 /* Header */
 .header {
@@ -46,7 +39,6 @@ body {
 
 .menu__lien {
   text-decoration: none;
-  color: black;
   font-size: 18px;
 }
 
@@ -95,11 +87,20 @@ bottom: 0;
     right: 32.5%;
   }
 
-  .bardenav{
-    background-color: #FB6B24;
-  }
+ 
 
   .boutonmenu {
     appearance: none;
 
   }
+
+  .infos {
+    display: block; /* Assure que l'image est affichée */
+    max-width: 100%; /* Limite la largeur de l'image à la largeur de son conteneur */
+    height: auto; /* Préserve les proportions de l'image */
+}
+
+.photosinfo {
+  text-align: center; /* Centre l'image horizontalement */
+  height: auto;
+}

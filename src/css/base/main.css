@@ -1,17 +1,101 @@
-#accueil {
-    
-    background-color: red;
-   
-  }
-  #menu {
+body {
+  background-color: #1E1E1E; 
+  font-family: 'StormGust', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+ 
+}
+.photos-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px ;
+margin-bottom: 50px ;
+}
+.photo {
 
-    
-  }
+width: 300px;
 
-  body{
-    background-color: #1E1E1E;
-  }
+}
 
-  header{
-    background-color: #FB6B24;
-  }
+.presfesti,.concept,.programmation{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.textpres,.textprog{
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold
+}
+
+.line1infos,.line2prog{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.textconcept{
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 5px;
+  color: white;
+  margin-top: 20px;
+}
+
+.lieu-image{
+  width: 350px;
+  height: 350px;
+}
+
+.lieu-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px ;
+  margin-bottom: 50px ;
+}
+
+.taretbil{
+  text-align: center;
+margin-bottom: 50px;
+color: white;
+font-weight: bold;
+}
+
+.txttarif{
+  text-align: center;
+  margin-bottom: 5px;
+color: white;
+line-height: 5px;
+
+}
+
+.billetterie {
+  background: none; /* Gris */
+  color: #ff6600; /* Orange */
+  font-family: 'Arial', sans-serif; /* Remplacez par la police de votre choix */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-color: #ff6600;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre */
+  transition: background-color 0.3s ease; /* Transition au survol */
+}
+
+.bouton-billeterie{
+  display: flex;
+  justify-content: center;
+margin-bottom: 50px;
+
+  top: 100px;
+}
+
+.billetterieimg{
+  margin-right: 20px;
+}

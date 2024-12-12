@@ -7,6 +7,7 @@
 /* Base */
 @import "base/main.css";
 @import "base/media.css";
+@import "base/informations.css";
 
 /* Layout */
 @import "layout/header.css";
