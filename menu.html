@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/src/css/style.css">
-    <title>FESTIV-HALLOWEEN</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+  <title>FESTIV-HALLOWEEN</title>
 </head>
-<header>
-    
-<div class="logoaccueil">
-
-<img src="/assets/icons/24140299-horreur-minimaliste-et-plat-logo-vecteur-illustration-vectoriel-removebg-preview 1.png" alt="logo" class="logo">
-
-
-</div>
-
-
-    </header>
-
 <body>
-    
+
+  <header class="header">
+    <div class="header__boutonaccueil">
+      <img src="/assets/icons/logoaccueil.png" alt="Ouvrir le menu" class="header__logoaccueil" onclick="toggleMenu()"> 
+    </div>
+  </header>
+
+  <nav id="menu" class="menu" hidden>
+    <ul class="menu__liste">
+      <li class="menu__item"><a href="/index.html" class="menu__lien"> <img src="/assets/icons/Accueil.png"></a></li>
+      <li class="menu__item"><a href="/informations.html" class="menu__lien"><img src="/assets/icons/Informations.png"></a></li>
+      <li class="menu__item"><a href="/billeterie.html" class="menu__lien"><img src="/assets/icons/Billeterie.png"></a></li>
+      <li class="menu__item"><a href="#" class="menu__lien"><img src="/assets/icons/PARTENAIRES.png"></a></li>
+      <li class="menu__item"><a href="#" class="menu__lien"><img src="/assets/icons/CONTACTS.png"></a></li>
+    </ul>
+  </nav>
+
+  <footer class="footer">
+    <div class="footer__elipse">
+      <img src="/assets/icons/Ellipse 20.png" alt="elipse" class="footer__image">
+    </div>
+    <div class="footer__titreelipse">
+      <img src="/assets/icons/FESTIV’HALLOWEEN (orange).png" alt="logo" class="footer__logo">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
-<footer>
- <div class="elipse">
-
-<div class="titreelipse">
-<img src="/assets/icons/FESTIF’HALLOWEEN.png" alt="logo" class="logoelipse">
-</div>
-
-
-</div>
-
- </div>
-
-
-
-
-
-</footer>
-
-
-
-
-
-
 </html>

@@ -6,47 +6,65 @@
     <link rel="stylesheet" type="text/css" href="/src/css/style.css">
     <title>FESTIV-HALLOWEEN</title>
 </head>
-<header>
-    
-<div class="bardenav">
-
-  <div class="boutonmenu">
-    
-  <a href="/menu.html">
-    <img src="/assets/icons/logomenu.png" alt="menu" class="menu">
-
-  </a>
-  
-  
-  </div>
-
-<div class="titre">
-<img src="/assets/icons/FESTIF’HALLOWEEN.png" alt="logo" class="logo">
-</div>
-    
-
-
-
-
-
-    </header>
 
 <body>
+  
+  <div id="accueil">
+    <header>
+        
+    <div class="bardenav">
     
+      <div class="boutonmenu">
+        <button>
+          <img src="/assets/icons/logomenu.png" alt="" class="">
+        </button>
+        
+
+      </div>
+    </div>
+      
+    <div class="titre">
+    <img src="/assets/icons/FESTIF’HALLOWEEN.png" alt="logo" class="logo">
+    </div>
+        </header>
+      </div>
+
+
+
+
+
+      
+        <div id="menu">
+          <header class="header">
+            <div class="header__boutonaccueil">
+              <img src="/assets/icons/logoaccueil.png" alt="Ouvrir le menu" class="header__logoaccueil" onclick="toggleMenu()"> 
+            </div>
+          </header>
+        
+          <nav id="menu-nav" class="menu-nav" hidden>
+            <ul class="menu__liste">
+              <li class="menu__item"><a href="/index.html" class="menu__lien"> <img src="/assets/icons/Accueil.png" alt="imageaccueil"></a></li>
+              <li class="menu__item"><a href="/informations.html" class="menu__lien"><img src="/assets/icons/Informations.png" alt="imageinformations"></a></li>
+              <li class="menu__item"><a href="/billeterie.html" class="menu__lien"><img src="/assets/icons/Billeterie.png" alt="imagebilleterie" ></a></li>
+              <li class="menu__item"><a href="#" class="menu__lien"><img src="/assets/icons/PARTENAIRES.png" alt="imagepartenaires"></a></li>
+              <li class="menu__item"><a href="#" class="menu__lien"><img src="/assets/icons/CONTACTS.png" alt="imagecontact"></a></li>
+            </ul>
+          </nav>
+        
+        
+          <footer class="footer">
+            <div class="footer__elipse">
+              <img src="/assets/icons/Ellipse20.png" alt="elipse" class="footer__image">
+            </div>
+            <div class="footer__titreelipse">
+              <img src="/assets/icons/FESTIVHALLOWEEN(orange).png" alt="logo" class="footer__logo">
+            </div>
+          </footer>
+        </div>
+
+
+
+
+  <script src="/src/js/script.js"></script>
 </body>
-
-<footer>
-
-SUIVEZ-NOUS
-
-
-
-
-</footer>
-
-
-
-
-
-
 </html>
