@@ -25,7 +25,7 @@ width: 300px;
 
 }
 
-.presfesti,.concept,.programmation,.infopratiquestitle{
+.presfesti,.concept,.programmation,.infopratiquestitle,.formulestitre{
   text-align: center;
   margin-bottom: 15px;
 }
@@ -384,5 +384,25 @@ margin-left: 20px;
 margin-bottom: 60px;
 }
 
+.txtfilmpage{
+  margin-top: 264px;
+  display: flex;
+  justify-content: center;
+ 
+}
 
+.restxtpage{
+  margin-top: 50px;
+}
+
+.standardtitle,.étuidanttitle{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.ticketstandard,.ticketétudiant{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 
