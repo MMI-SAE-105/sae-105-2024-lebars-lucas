@@ -25,9 +25,9 @@ width: 300px;
 
 }
 
-.presfesti,.concept,.programmation{
+.presfesti,.concept,.programmation,.infopratiquestitle{
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .textpres,.textprog{
@@ -125,4 +125,46 @@ margin-bottom: 50px;
   text-align: center;
   line-height: 15px;
   margin-bottom: 100px;
+}
+
+.txtpres{
+  text-align: left;
+  color: white;
+  font-family: "Gill Sans MT";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+line-height: 5px;
+margin-left: 30px;
+margin-bottom: 44px;
+}
+
+
+.imagecolisée{
+  display: flex;
+  justify-content: center;
+}
+.cinécolisée{
+  width: 300px;
+height: 213.6px;
+flex-shrink: 0;
+margin-bottom: 58.4px;
+}
+
+.datesetlieux{
+  margin-bottom: 46px;
+}
+
+.txtdates{
+  color: #FFF;
+
+text-align: center;
+/* Texte */
+font-family: "Gill Sans MT";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 111px;
 }
