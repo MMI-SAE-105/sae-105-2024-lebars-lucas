@@ -4,22 +4,16 @@
     height: 96px; 
     width: 100%;
     position: fixed;
-    
-
     border-bottom-left-radius: 30px;
-border-bottom-right-radius: 53px
-    
-    
-    
-    
+    border-bottom-right-radius: 53px;
+    top: 0;
 }
-
-
 
 .boutonmenu{
     position: absolute;
     left: 0;
     top: 30px;
+    margin-left: 10px;
 }
 
 .titre {

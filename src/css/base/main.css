@@ -8,6 +8,11 @@ body {
   position: relative;
  
 }
+
+.informations{
+  background-color: #1E1E1E;
+}
+
 .photos-container{
   display: flex;
   justify-content: center;

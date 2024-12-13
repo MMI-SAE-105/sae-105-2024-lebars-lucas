@@ -1,40 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleButton = document.querySelector(".boutonmenu");
-  const closeButton = document.querySelector(".boutonfermer");
-  const sideMenu = document.getElementById("menu");
-  const overlay = document.getElementById("overlay");
-  const accueil = document.getElementById("accueil");
+const menuButton = document.querySelector('.boutonmenu');
+const menu = document.getElementById('mainNav');
 
-  // Fonction pour ouvrir le menu
-  const openMenu = () => {
-    sideMenu.classList.add("open");
-    overlay.classList.add("active");
-    toggleButton.setAttribute("aria-expanded", "true");
-    sideMenu.setAttribute("aria-hidden", "false");
-    accueil.style.display = "none";
-  };
+menuButton.addEventListener('click', () => {
+  const isHidden = menu.getAttribute('aria-hidden') === 'true';
+  menu.setAttribute('aria-hidden', !isHidden);
+});
 
-  // Fonction pour fermer le menu
-  const closeMenu = () => {
-    sideMenu.classList.remove("open");
-    overlay.classList.remove("active");
-    toggleButton.setAttribute("aria-expanded", "false");
-    sideMenu.setAttribute("aria-hidden", "true");
-    accueil.style.display = "block";
-  };
-
-  // Événement pour ouvrir le menu
-  if (toggleButton) {
-    toggleButton.addEventListener("click", openMenu);
-  }
-
-  // Événement pour fermer le menu via le bouton fermer
-  if (closeButton) {
-    closeButton.addEventListener("click", closeMenu);
-  }
-
-  // Événement pour fermer le menu en cliquant sur l'overlay
-  if (overlay) {
-    overlay.addEventListener("click", closeMenu);
+// Délégation d'événements pour l'image "logoaccueil.png"
+document.addEventListener('click', function(event) {
+  if (event.target.src.endsWith('/assets/icons/logoaccueil.png')) {
+    menu.setAttribute('aria-hidden', 'true');
   }
 });
