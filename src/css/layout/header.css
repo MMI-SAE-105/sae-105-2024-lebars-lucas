@@ -4,8 +4,8 @@
     height: 96px; 
     width: 100%;
     position: fixed;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 53px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     top: 0;
 }
 
